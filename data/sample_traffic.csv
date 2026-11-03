@@ -1,0 +1,8 @@
+case,N_vehicles,N_wait,E_vehicles,E_wait,S_vehicles,S_wait,W_vehicles,W_wait,note
+Case 1 - example from problem,35,40,25,28,12,15,8,10,North busy and waiting longest
+Case 2 - all light,4,8,6,12,3,5,5,10,Late night - every road should get a short green
+Case 3 - all heavy,48,95,44,88,50,100,46,90,Every road jammed - all get long green
+Case 4 - one road jammed,6,12,52,105,7,15,5,9,Only East is jammed
+Case 5 - long queue just formed,45,8,10,20,12,22,9,18,North has many cars but they just arrived (rule 7)
+Case 6 - few cars waited long,5,100,20,30,18,35,22,40,North has few cars that waited long (rule 3)
+Case 7 - boundary values,20,35,30,55,38,70,12,20,Inputs sit where two sets overlap
